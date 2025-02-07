@@ -1,0 +1,82 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    background: #0a0a0a;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-btn {
+    background: #ff0077;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.main-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background: #111;
+    border: 2px solid white;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ff0077;
+    color: white;
+}
+
+.hologram {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+canvas {
+    width: 300px;
+    height: 300px;
+}
+
